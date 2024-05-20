@@ -5,4 +5,3 @@ class Cella:
         self.j = j
         self.pos = pos 
         self.size = size
-    
