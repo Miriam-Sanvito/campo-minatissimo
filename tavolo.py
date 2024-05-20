@@ -28,12 +28,20 @@ class Piattaforma():
         #     for x, quad in enumerate(riga):
         #             self.quad_rects.append(pygame.Rect(x * self.quad_width, y * self.quad_height, self.quad_width, self.quad_height))
     def draw(self):
+        # for y, riga in enumerate(self.game_map):
+        #     for x, quad in enumerate(riga):
+        #         if quad == 0:
+        #             self.quad
+        #         if quad == 2:
+                    
         for riga in self.game_map:
+            c=0
             for el in riga:
-                if self.quad == 0:
-                    self.quad_rect.fill((self.colore0))
-                if self.quad == 1:
-                    self.quad_rect.fill((self.colore1))
+               c+=1
+               if el == 0:
+                    self.quad_rects[c].fill((self.colore0))
+               if el == 1:
+                    self.quad_rects[c].fill((self.colore0))
 
 
 
