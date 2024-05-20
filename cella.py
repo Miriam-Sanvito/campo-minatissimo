@@ -6,7 +6,3 @@ class Cella:
         self.pos = pos 
         self.size = size
     
-
-
-
-    
